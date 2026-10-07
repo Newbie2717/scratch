@@ -8,3 +8,26 @@ shoppingList.push("Kids Paracetamol");
 //  console.log(shoppingList.length);
 **/
 
+/** let fruits = new Array();  
+// console.log(arr);
+
+let vegs = [];
+// console.log(arr2);
+
+fruits.push("Mango", "Blueberry", "Strawberry");
+vegs.push("Cucumber", "Carrot", "Onion");
+
+// console.log(`${arr} is ${arr2} years old`);
+
+console.log(fruits[1], vegs[0]);
+
+fruits[2] = "Blackberry";
+
+console.log(fruits);
+
+console.log(fruits.length);
+
+fruits[3] = "Mango";
+console.log(fruits);
+
+**/
