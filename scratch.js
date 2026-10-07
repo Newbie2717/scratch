@@ -35,3 +35,13 @@ vegs[0] = "Salad";
 console.log(vegs);
 console.log(vegs.length);
 **/
+
+
+
+let arr = ["Apple", {name: "Yaser"}, true, function() {return "Hello";}];
+
+console.log(arr[1]);
+
+console.log(arr[1].name);
+
+console.log(`${arr[3]()} ${arr[1].name} and he likes ${arr[0]}`);
