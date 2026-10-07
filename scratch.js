@@ -30,4 +30,8 @@ console.log(fruits.length);
 fruits[3] = "Mango";
 console.log(fruits);
 
+console.log(vegs.length);
+vegs[0] = "Salad";
+console.log(vegs);
+console.log(vegs.length);
 **/
