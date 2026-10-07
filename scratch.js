@@ -38,10 +38,26 @@ console.log(vegs.length);
 
 
 
-let arr = ["Apple", {name: "Yaser"}, true, function() {return "Hello";}];
+/* let arr = ["Apple", {name: "Yaser"}, true, function() {return "Hello";}];
 
 console.log(arr[1]);
 
 console.log(arr[1].name);
 
-console.log(`${arr[3]()} ${arr[1].name} and he likes ${arr[0]}`);
+console.log(`${arr[3]()} ${arr[1].name} and he likes ${arr[0]}`); */
+
+let fruits = [
+    "Tomato", 
+    "Onion",
+    "Cucumber",
+];
+
+// console.log(fruits);
+
+/* fruits[3] = "salad";
+// console.log(fruits);
+fruits.push("Petercelie")
+// console.log(fruits);
+
+console.log(fruits[fruits.length-1]);
+console.log(fruits.at(-1)); */
