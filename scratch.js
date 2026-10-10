@@ -69,12 +69,27 @@ let guests = [
 
 ];
 
-for (const guest of guests){
+/* for (const guest of guests){
     if (guest.vip === true){
         console.log(`${guest.name}, please go to hall 1`);
     } else {
         console.log(`${guest.name}, please go to hall 2`);
     }
-};
+}; */
+
+function isVip(guest) {
+    return guest.vip;
+}
+
+function getName(guest) {
+    return guest.name;
+}
+
+const vipGuests = guests.filter(isVip);
+const vipName = vipGuests.map(getName);
+
+console.log(vipName);
+
+
 
 
