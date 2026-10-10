@@ -112,7 +112,7 @@ for (const a of arr){
         console.log(item);
     }
 }; */
-
+/* 
 const timesheet = [
     {name: "Ajmal", hours: [8,8,8,8,8,], },
     {name: "Yaser", hours:[8,8,8,8,8,], }
@@ -131,4 +131,22 @@ for(const person of found){
     }
 
     console.log(`${person.name}: ${total}`);
-}
+} */
+
+/* let styles = [
+    "Jazz",
+    "Blues",
+];
+console.log(styles);
+
+styles.push("Rock-n-Roll");
+console.log(styles);
+styles[Math.floor((styles.length - 1) / 2)] = "Classics";
+console.log(styles);
+console.log(styles.shift());
+console.log(styles);
+styles.unshift("Rap", "Reggae");
+console.log(styles); */
+
+
+
