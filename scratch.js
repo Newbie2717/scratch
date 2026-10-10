@@ -62,7 +62,7 @@ fruits.push("Petercelie")
 console.log(fruits[fruits.length-1]);
 console.log(fruits.at(-1)); */
 
-let guests = [
+/* let guests = [
     {name: "Yaser", age: 30, vip: true, }, 
     {name: "Roshna", age: 25, vip: true, }, 
     {name: "Tariq", age: 28, vip: false},
@@ -90,12 +90,45 @@ const vipName = vipGuests.map(getName);
 
 console.log(`${vipName} please go to hall 1`); */
 
-for(const guest of guests){
+/* for(const guest of guests){
     if (guest.age > 26){
         console.log(`${guest.name}, please go to hall 1`);
     } else {
         console.log(`${guest.name}, please go to hall 2`);
     }
+}  */
+
+
+// Multidimentional arrays
+
+/* let arr = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9],
+]
+
+for (const a of arr){
+    for (const item of a){
+        console.log(item);
+    }
+}; */
+
+const timesheet = [
+    {name: "Ajmal", hours: [8,8,8,8,8,], },
+    {name: "Yaser", hours:[8,8,8,8,8,], }
+];
+
+function isYaserOrAjmal(person){
+    return person.name === "Yaser" || person.name === "Ajmal";
 }
 
+const found = timesheet.filter(isYaserOrAjmal);
 
+for(const person of found){
+    let total = 0
+    for (const dayHours of person.hours){
+        total+= dayHours;
+    }
+
+    console.log(`${person.name}: ${total}`);
+}
