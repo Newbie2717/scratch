@@ -64,7 +64,7 @@ console.log(fruits.at(-1)); */
 
 let guests = [
     {name: "Yaser", age: 30, vip: true, }, 
-    {name: "Roshna", age: 30, vip: true, }, 
+    {name: "Roshna", age: 25, vip: true, }, 
     {name: "Tariq", age: 28, vip: false},
 
 ];
@@ -77,7 +77,7 @@ let guests = [
     }
 }; */
 
-function isVip(guest) {
+/* function isVip(guest) {
     return guest.vip;
 }
 
@@ -88,8 +88,14 @@ function getName(guest) {
 const vipGuests = guests.filter(isVip);
 const vipName = vipGuests.map(getName);
 
-console.log(`${vipName} please go to hall 1`);
+console.log(`${vipName} please go to hall 1`); */
 
-
+for(const guest of guests){
+    if (guest.age > 26){
+        console.log(`${guest.name}, please go to hall 1`);
+    } else {
+        console.log(`${guest.name}, please go to hall 2`);
+    }
+}
 
 
