@@ -88,7 +88,7 @@ function getName(guest) {
 const vipGuests = guests.filter(isVip);
 const vipName = vipGuests.map(getName);
 
-console.log(vipName);
+console.log(`${vipName} please go to hall 1`);
 
 
 
