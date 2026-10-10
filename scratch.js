@@ -45,12 +45,12 @@ console.log(arr[1]);
 console.log(arr[1].name);
 
 console.log(`${arr[3]()} ${arr[1].name} and he likes ${arr[0]}`); */
-
+/* 
 let fruits = [
     "Tomato", 
     "Onion",
     "Cucumber",
-];
+]; */
 
 // console.log(fruits);
 
@@ -61,3 +61,20 @@ fruits.push("Petercelie")
 
 console.log(fruits[fruits.length-1]);
 console.log(fruits.at(-1)); */
+
+let guests = [
+    {name: "Yaser", age: 30, vip: true, }, 
+    {name: "Roshna", age: 30, vip: true, }, 
+    {name: "Tariq", age: 28, vip: false},
+
+];
+
+for (const guest of guests){
+    if (guest.vip === true){
+        console.log(`${guest.name}, please go to hall 1`);
+    } else {
+        console.log(`${guest.name}, please go to hall 2`);
+    }
+};
+
+
