@@ -239,3 +239,25 @@ function show(fruit, index){
 }
 
 fruits.forEach(show); */
+
+/* const fruits = [
+    "apple", "banana", "cherry",
+];
+function show(index, fruit) {          // names swapped
+    console.log(`${index}: ${fruit}`);
+}
+
+fruits.forEach(show); */
+
+/* let fruits = [
+    "apple",
+    "mango", 
+    "cherry", 
+    "date",
+];
+
+function showIndexOfArray(item, index){
+    console.log(`${item}, is at index:${index}`);
+}
+fruits.push("Blackberry");
+fruits.forEach(showIndexOfArray); */
