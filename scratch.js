@@ -261,3 +261,51 @@ function showIndexOfArray(item, index){
 }
 fruits.push("Blackberry");
 fruits.forEach(showIndexOfArray); */
+
+/* let fruits = [
+    "apple", "banana", "cherry", "date"
+];
+
+fruits.splice(1,2, "fig");
+
+console.log(fruits); */
+
+/* let fruits = [
+    "apple", "banana", "cherry", "date"
+];
+
+let lastTwo = fruits.slice(2,);
+console.log(fruits);
+console.log(lastTwo); */
+
+/* let fruits = [
+    "apple", "banana", "cherry", "date",
+];
+let basket = [
+    "fig", "grape"
+];
+
+console.log(basket.concat(fruits, "pear"));
+console.log(fruits); */
+
+/* let fruits = [
+    "apple", "banana", "cherry", "date",
+];
+
+function showNumbered(item, index){
+    console.log(index+1+"." + " " + item);
+}
+
+fruits.forEach(showNumbered); */
+
+/* const hours = [8,7,9,8,6];
+
+let total = 0;
+function showTotal(item, index){
+    total += item;
+}
+
+hours.forEach(showTotal);
+
+console.log(`Total: ${total}`); */
+
