@@ -149,4 +149,93 @@ styles.unshift("Rap", "Reggae");
 console.log(styles); */
 
 
+// Splice
+// arr.splice(start, deleteCount, items, items ...)
+/* let fruits = [
+    "Apple", 
+    "Banana", 
+    "Cherry", 
+    "date",
+];
 
+fruits.splice(1, 1, "Blackberry", "Mango");
+
+console.log(fruits); */
+
+/* let arr = ["I", "study", "Javascript", "right", "now"];
+
+arr.splice(0,3, "Lets", "dance");
+
+console.log(arr); */
+
+/* let arr = ["I", "study", "Javascript", "right", "now"];
+
+let removed = arr.splice(0,2);
+console.log(arr);
+console.log(removed); */
+
+
+// negative indexing
+
+/* let arr = [
+    1,2,5
+];
+
+arr.splice(-1, 0, 3, 4,);
+console.log(arr); */
+
+
+
+
+// Slice 
+
+/* let fruits = [
+    "apple",
+    "banana", 
+    "cherry", 
+    "date"
+];
+
+let newFruit = fruits.slice(1,3);
+console.log(newFruit); */
+
+
+//Concat
+
+
+/* let arr = [1,2];
+
+let arr2 = arr.concat([3,4,5]);
+
+console.log(arr);
+console.log(arr2); */
+
+/* let veg = [
+    "salad",
+    "cauliflower",
+    "carrot",
+];
+
+let fruits = [
+    "mango",
+    "date", 
+    "cherry",
+];
+
+let vegFruit = veg.concat(fruits);
+
+console.log(veg);
+console.log(fruits);
+console.log(vegFruit); */
+
+// Iterate: forEach
+
+/* const fruits = [
+    "apple", "banana", "cherry",
+];
+
+function show(fruit, index){
+    console.log(`${index}: ${fruit}`);
+}
+
+fruits.forEach(show); */
