@@ -309,3 +309,35 @@ hours.forEach(showTotal);
 
 console.log(`Total: ${total}`); */
 
+
+// Indexof/lastindexOf and includes
+
+
+/* let fruits = [
+    "apple", "banana", "cherry", "date",
+];
+
+console.log(fruits.includes("apple"));
+
+function showItem(item){
+    return item.startsWith("apple") || item.startsWith("Apple");
+}
+
+const filtered = fruits.filter(showItem);
+console.log(filtered[0]);
+
+console.log(fruits.indexOf("apple"));
+
+ */
+
+
+let fruits = [
+    "apple", "banana", "cherry", "date",
+];
+
+if(fruits.includes("apple")){
+    const index = fruits.indexOf("apple");
+    console.log(`Found ${fruits[index]} at index: ${index}`);
+} else {
+    console.log(`apple or Apple is not on the list.`);
+}
