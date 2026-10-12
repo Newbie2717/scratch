@@ -330,7 +330,7 @@ console.log(fruits.indexOf("apple"));
 
  */
 
-
+/* 
 let fruits = [
     "apple", "banana", "cherry", "date",
 ];
@@ -340,4 +340,4 @@ if(fruits.includes("apple")){
     console.log(`Found ${fruits[index]} at index: ${index}`);
 } else {
     console.log(`apple or Apple is not on the list.`);
-}
+} */
