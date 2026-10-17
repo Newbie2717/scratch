@@ -341,3 +341,16 @@ if(fruits.includes("apple")){
 } else {
     console.log(`apple or Apple is not on the list.`);
 } */
+
+
+
+let fruits = [
+    "apple", "banana", "cherry", "cherry",
+];
+
+if(fruits.includes("apple")){
+    const index = fruits.indexOf("apple");
+    console.log(`${fruits[index]} is at index: ${index}`);
+} else {
+    console.log("Apple is not found");
+}
