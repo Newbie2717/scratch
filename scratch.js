@@ -344,13 +344,19 @@ if(fruits.includes("apple")){
 
 
 
-let fruits = [
+/* let fruits = [
     "apple", "banana", "cherry", "cherry",
 ];
 
-if(fruits.includes("apple")){
+if (fruits.includes("apple")) {
     const index = fruits.indexOf("apple");
     console.log(`${fruits[index]} is at index: ${index}`);
 } else {
     console.log("Apple is not found");
+} */
+
+function greet(name) {
+    console.log(`Hello, ${name}`);
 }
+
+greet("Yaser");
