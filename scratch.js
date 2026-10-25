@@ -355,8 +355,46 @@ if (fruits.includes("apple")) {
     console.log("Apple is not found");
 } */
 
-function greet(name) {
+/* function greet(name) {
     console.log(`Hello, ${name}`);
 }
 
-greet("Yaser");
+greet("Yaser"); */
+
+/* function greet (name){
+    return `Hello ${name}`;
+}
+
+console.log(greet("Yaser"));
+ */
+
+/* function isEven(num) {
+    if (num % 2 === 0){
+        return true;
+    } else {
+        return false;
+    }
+} */
+
+/* const numbers = [1,2,3,4,6];
+let count = 0;
+for (let i = 0; i<numbers.length; i++){
+    if (isEven(numbers[i])){
+        count++;
+        // console.log(numbers[i]);
+    }
+}
+console.log(count); */
+
+/* function countEvens(arr) {
+    let count = 0;
+
+    for(i = 0; i<arr.length; i++){
+        if(isEven(arr[i])){
+            count++;
+        }
+    }
+    return count;
+}
+
+console.log(countEvens([1,2,3,4,5,6,7,8,9])); */
