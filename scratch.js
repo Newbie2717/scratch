@@ -400,3 +400,18 @@ console.log(count); */
 console.log(countEvens([1,2,3,4,5,6,7,8,9])); */
 
  
+
+
+let arr = ["I", "go", "home",];
+
+arr.push("on", "Tuesday");
+console.log(arr);
+
+arr.pop();
+console.log(arr);
+
+arr.shift();
+console.log(arr);
+
+arr.unshift("OK");
+console.log(arr); 
