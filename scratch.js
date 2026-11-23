@@ -402,7 +402,7 @@ console.log(countEvens([1,2,3,4,5,6,7,8,9])); */
  
 
 
-let arr = ["I", "go", "home",];
+/* let arr = ["I", "go", "home",];
 
 arr.push("on", "Tuesday");
 console.log(arr);
@@ -414,4 +414,14 @@ arr.shift();
 console.log(arr);
 
 arr.unshift("OK");
-console.log(arr); 
+console.log(arr);  */
+
+const food = [
+    'apple',
+    'veg', 
+    'tomato', 
+    'onion', 
+    'strawberry'
+]; 
+
+food.forEach ((item) => {console.log(item)});
